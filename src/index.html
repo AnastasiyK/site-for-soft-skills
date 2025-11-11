@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"> <!-- кодировка -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- чтобы страницы были адаптированы под экран -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- подключаем стили -->
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="/" class="logo">
+                    <img src="images/логотип.jpg" alt="Логотип">
+                </a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="header__list">
+                    <!-- ul>li*кол-во -->
+                    <!-- ul>li*5>a -->
+                    <ul>
+                        <li><a href="#">Пробное занятие</a></li>
+                        <li><a href="#price">Прайс</a></li>
+                        <li><a href="#">О школе</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav> <!-- навигация по сайту -->
+            </div>
+        </div>
+    </header>
+
+    <div class="menu__mobile">
+        <div class="close__btn">&#10006</div>
+        
+        <nav class="menu__block">
+            <ul>
+                <li><a href="#">Пробное занятие</a></li>
+                <li><a href="#price">Прайс</a></li>
+                <li><a href="#">О школе</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <main>
+        <section class="main" id="main">
+            <img src="images/myback.jpg" alt="Заданий фон"> 
+            <h1>Школа программирования</h1>
+        </section>
+
+        <!-- Секция цена  -->
+
+        <section class="price">
+            <div class="container">
+                <div class="prices" id="price">
+                    <div class="price__item">
+                        <img src="images/price1.jpg">
+                        <a>Пробное занятие</a>
+                        <p>Бесплатно</p>
+                    </div>
+                    <div class="price__item">
+                        <img src="images/price2.jpg">
+                        <a>Абонемент 2 занятия</a>
+                        <p>1 800 ₽</p>
+                    </div>
+                    <div class="price__item">
+                        <img src="images/price2.jpg">
+                        <a>Абонемент 4 занятия</a>
+                        <p>3 600 ₽</p>
+                    </div>
+                    <div class="price__item">
+                        <img src="images/price2.jpg">
+                        <a>Абонемент 6 занятия</a>
+                        <p>4 200 ₽</p>
+                    </div>
+                    <div class="price__item">
+                        <img src="images/price3.jpg">
+                        <a>Абонемент 8 занятия</a>
+                        <p>5 600 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button class="price__btn">Показать всех</button>
+        
+        <section class="subscribers" id="subscribers">
+            <div class="container">
+                <h3 class="count">Подписчики 77</h3>
+                    <div class="subscribers__wrapper">
+                        <div class="subscribers__item">
+                            <img src="images/boy.jpg" alt="Аватарка мальчика">
+                            <a>Павел</a>
+                        </div>
+                        <div class="subscribers__item">
+                            <img src="images/girl.png" alt="Аватарка девочки">
+                            <a>Анна</a>
+                        </div>
+                        <div class="subscribers__item">
+                            <img src="images/boy.jpg" alt="Аватарка мальчика">
+                            <a>Влад</a>
+                        </div>
+                        <div class="subscribers__item">
+                            <img src="images/girl.png" alt="Аватарка девочки">
+                            <a>Саша</a>
+                        </div>
+                        <div class="subscribers__item">
+                            <img src="images/boy.jpg" alt="Аватарка мальчика">
+                            <a>Олег</a>
+                        </div>
+                        <div class="subscribers__item">
+                            <img src="images/girl.png" alt="Аватарка девочки">
+                            <a>Настя</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+        <a href="#main" class="circle">
+        <p>↑</p>
+    </a>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="sticky">глава 1</div>
+                <div class="sticky">глава 2</div>
+                <div class="sticky">глава 3</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <div class="example">
+        <p>example</p>
+    </div> -->
+ 
+        <footer>
+            <div class="footer__info">
+                <address>
+                    <p>Адрес: Ярославль </p>
+                    <p>Телефон: 8 (911) 345-77-77</p>
+                </address>
+                <div class="icons">
+                    <a class="icon">
+                        <img src="icons/telegram.svg" alt="Наш телеграмм">
+                    </a>
+                    <a class="icon">
+                        <img src="icons/vk.svg" alt="Наш вк">
+                    </a>
+                </div>    
+            </div>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40589.40334861494!2d39.81057757113871!3d57.678778717529404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1760545213195!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            низ сайта
+        </footer>
+
+        <script src="js/script.js"> </script>       
+    </body> 
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" name="username" placeholder="Введите имя пользователя">
+    <input type="password" name="password" placeholder="Введите пароль">
+    <input type="email" name="email" placeholder="Введите почту">
+    <input type="tel" name="phone" placeholder="Введите номер">
+    <input type="number" name="quality" placeholder="Введите число" min="1" max="100" step="10">
+    <input type="range" name="rating" placeholder="Введите громкость" min="1" max="10" value="5">
+    <input type="date" name="birthdate" placeholder="Введите дату">
+    <input type="time" name="meeting-time" placeholder="Введите время">
+    <input type="color" name="favourite-color" placeholder="Введите цвет" value="#8B0000">
+    <input type="checkbox" id="subscribe" name="subscribe" checked>  <!-- галочка -->
+    <label for="subscribe">Подписаться на рассылку </label>
+    
+
+
+    <table>
+        <caption>Ученики</caption>
+        <thead>
+            <tr>
+                <th>ФИО УЧЕНИКА</th>
+                <th>ТЕЛЕФОН</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Емельянова Анастасия Тимофеевна</th>
+                <th>+79693456757</th>
+            </tr>
+            <tr>
+                <th>Орлов Олег Николаевич</th>
+                <th>+79693456757</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <label for="country">Страна</label>
+    <select name="country" id="country">
+        <option value="">Выберите страну</option>
+        <option value="">Россия</option>
+        <option value="">США</option>
+        <option value="">Германия</option>
+        <option value="">Испания</option>
+    </select>
+
+    <style>
+
+        table th, td {
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        }
+    </style>
+
+</body>
+</html>
