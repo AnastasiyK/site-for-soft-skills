@@ -20,14 +20,14 @@ header{
         display: flex;
         gap: 25px;
         li{
-            border: 2px solid #fff;
-            border-radius: 5px;
             width: 37px;
             height: 37px;
-            transform: rotate(45deg);
-            align-items: center;
-            justify-content: center;
             display: flex;
+            justify-content: center;
+            align-items: center; 
+            border: 2px solid #fff;
+            border-radius: 5px;
+            transform: rotate(45deg);  
             img{
                 width: 100%;
                 height: 100%;
